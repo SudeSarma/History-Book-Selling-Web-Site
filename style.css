@@ -1,0 +1,165 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background:url(images/pattern.png) #ffffff;
+    font-family: sans-serif;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  Font-size:20px;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+th{
+	color:black;
+}
+
+.ortaResim{
+    margin-left: 40px;
+    background: white;
+}
+
+.baslikboyut{
+    font-size: 30px;
+    color: #999999;
+}
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+}
+
+.ust{
+    background: white;
+    margin: auto;
+}
+
+#baslik{
+    float: left;
+    font-size: 1.2em;
+    color: deepskyblue;
+    text-decoration: none;
+}
+ 
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 70px;
+}
+ 
+#menu li{
+    float: left;
+    
+}
+ 
+#menu li a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+ 
+#menu .aktif{
+    background: #197AAF;
+    border-radius: 0px;
+}
+ 
+.orta{
+    margin-top: 15px;
+    background: white;
+ 
+}
+.orta-sol{
+    float: left;
+    width: 300px;
+}
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 500px;
+    color: black;
+}
+ 
+.alt{
+    background: #197AAF;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.alt a{
+     color: black;
+}
+
+.temizle{
+    clear: both;
+}
+input {
+  
+  padding:10px 20px;
+
+  border: 1px solid #eee;
+
+  border-left: 3px solid;
+
+  border-left-color:green; 
+
+  border-radius: 5px;
+
+  transition: border-color .8s ease-out;
+}
+
+input:focus{
+
+  outline:none;
+
+  border: 1px solid #eee;
+
+  border-left: 3px solid #888;
+
+}
+input[type=text] {
+
+         border: none;
+         border-bottom: 2px solid green;
+}
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
